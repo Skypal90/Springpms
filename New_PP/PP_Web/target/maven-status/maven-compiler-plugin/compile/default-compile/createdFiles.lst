@@ -1,0 +1,13 @@
+com\artek\interceptor\LoginInterceptor2.class
+com\artek\webservice\controller\EmployeeController.class
+com\artek\controller\ProjectController.class
+com\artek\aop\EmployeeManager.class
+com\artek\validator\RegistrationValidator.class
+com\artek\interceptor\LoginInterceptor1.class
+com\artek\aop\TestAop.class
+com\artek\A.class
+com\artek\controller\LoginController.class
+com\artek\controller\UserAddress.class
+com\artek\controller\RegistrationController.class
+com\artek\validator\ProjectValidator.class
+com\artek\validator\LoginValidator.class

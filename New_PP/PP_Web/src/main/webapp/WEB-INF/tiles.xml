@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml version="1.0" encoding="ISO-8859-1"?> -->
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tilles.apache.org/dtds/tiles-config_2_0.dtd">
+  
+  <tiles-definitions>
+  <definition name="baseTemplate" id="baseTemplate" template="/WEB-INF/layout/baseLayout.jsp">
+  <put-attribute name="header" value="/WEB-INF/layout/header.jsp"></put-attribute>
+  <put-attribute name="menu"  value="/WEB-INF/layout/menu.jsp"></put-attribute>
+  <put-attribute name="body" value="${body}"/>
+  <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" ></put-attribute> 
+  </definition>
+  
+  <definition name="login" id="login" extends="baseTemplate">
+  <put-attribute name="body" value="/WEB-INF/jsp/login.jsp"/>
+  </definition>
+  
+  <definition name="registration" id="registration" extends="baseTemplate">
+  <put-attribute name="body" value="/WEB-INF/jsp/registration.jsp"/>
+  </definition>
+  
+  <definition name="projectmanagement" id="projectmanagement"  template="/WEB-INF/jsp/projectmanagement.jsp" />
+  
+   <definition name="updateProject" id="updateProject"  template="/WEB-INF/jsp/update.jsp" />
+   
+    <definition name="useraddress" id="useraddress"  template="/WEB-INF/jsp/UserAddress.jsp" />
+ 
+     <definition name="webservice_1" id="webservice_1"  template="/WEB-INF/jsp/webservice_1.jsp" >
+ 
+  </definition>
+  
+  <!--       
+  
+  <definition name="baseTemplate_1" id="baseTemplate_1" template="/WEB_INF/layout/baseLayout_1.jsp">
+  <put-attribute name="body" value="${body}"></put-attribute>
+  <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp"></put-attribute>
+  </definition>
+  
+  <definition name="login" id="login" extends="baseTeplate_1">
+  <put-attribute name="body" value="/WEB-INF/layout/login.jsp"></put-attribute>
+  </definition>  
+   -->
+   
+   <!--         
+   
+  <definition name="login" id="login" value="/WEB-INF/layout/login.jsp"/>
+   -->
+   
+  </tiles-definitions>

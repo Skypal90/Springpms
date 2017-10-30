@@ -1,0 +1,9 @@
+com\artek\model\ProjectDTO.class
+com\artek\repository\RegistrationRepository.class
+com\artek\model\UserDTO1.class
+com\artek\webservices\model\Employee.class
+com\artek\repository\ProjectRepository.class
+com\artek\model\AddressDTO.class
+com\artek\repository\LoginRepository.class
+com\artek\model\EmployeeDTO.class
+com\artek\model\User.class
